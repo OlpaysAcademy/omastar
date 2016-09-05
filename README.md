@@ -54,3 +54,5 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 ## Naming and directory structure conventions
 
 ## Server rendering
+
+# Look and feel
