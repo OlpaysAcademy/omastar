@@ -19,7 +19,7 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 * Redux
   * Cuando usar redux y cuando manejar estado en componente?
   * Time traveling?
-  * Convenciones de acciones
+  * Convenciones de acciones. Ejemplo: https://github.com/acdlite/flux-standard-action
 
 ## Translations
 
