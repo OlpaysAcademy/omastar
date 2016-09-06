@@ -31,7 +31,7 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 ## UI Framework
  * Material UI
- * Que tan reusable hacer nuestros componentes?
+ * Que tan reusable hacer nuestros componentes? Hagamos componentes agnosticos al framework de UI que usen. Esto nos llevaria a componentes reutilizables en web/mobile, codigo mas reutilizable y a la larga quizas cambiar de framework UI.
  * React Native web o no?
 
 ## ES6 classes o React.createClass?
