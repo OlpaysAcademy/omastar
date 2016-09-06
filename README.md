@@ -40,6 +40,7 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 * React router?
 * Hay alguna otra opción? [Al parecer no se lleva muy bien con redux](https://formidable.com/blog/2016/07/11/let-the-url-do-the-talking-part-1-the-pain-of-react-router-in-redux/)
+  * Si hay otra opcion! [Redux little router](https://github.com/FormidableLabs/redux-little-router)
 
 ## Types
 
