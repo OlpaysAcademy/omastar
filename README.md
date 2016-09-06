@@ -14,12 +14,16 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 * CSS: Less, Sass, import CSS in components
 * Inline: Radium, ...
 
+## Testing
+* Jest
+  * [snapshot tests](https://facebook.github.io/jest/blog/2016/07/27/jest-14.html)
+
 ## State management
 
 * Redux
   * Cuando usar redux y cuando manejar estado en componente?
   * Time traveling?
-  * Convenciones de acciones
+  * Convenciones de acciones. Ejemplo: https://github.com/acdlite/flux-standard-action
 
 ## Translations
 
@@ -27,7 +31,7 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 ## UI Framework
  * Material UI
- * Que tan reusable hacer nuestros componentes?
+ * Que tan reusable hacer nuestros componentes? Hagamos componentes agnosticos al framework de UI que usen. Esto nos llevaria a componentes reutilizables en web/mobile, codigo mas reutilizable y a la larga quizas cambiar de framework UI.
  * React Native web o no?
 
 ## ES6 classes o React.createClass?
