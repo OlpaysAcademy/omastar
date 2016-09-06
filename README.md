@@ -14,6 +14,10 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 * CSS: Less, Sass, import CSS in components
 * Inline: Radium, ...
 
+## Testing
+* Jest
+  * [snapshot tests](https://facebook.github.io/jest/blog/2016/07/27/jest-14.html)
+
 ## State management
 
 * Redux
