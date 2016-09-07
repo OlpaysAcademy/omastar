@@ -57,6 +57,8 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 ## Icon system
 
 ## Naming and directory structure conventions
+* http://marmelab.com/blog/2015/12/17/react-directory-structure.html
+* http://jaysoo.ca/2016/02/28/organizing-redux-application/
 
 ## Server rendering
 
