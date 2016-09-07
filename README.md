@@ -31,8 +31,12 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 ## UI Framework
  * Material UI
- * Que tan reusable hacer nuestros componentes? Hagamos componentes agnosticos al framework de UI que usen. Esto nos llevaria a componentes reutilizables en web/mobile, codigo mas reutilizable y a la larga quizas cambiar de framework UI.
  * React Native web o no?
+
+## Reutilizacion de componentes
+ * Que tan reusable hacer nuestros componentes? Hagamos componentes agnosticos al framework de UI que usen. Esto nos llevaria a componentes reutilizables en web/mobile, codigo mas reutilizable y a la larga quizas cambiar de framework UI
+   * Separar entre [componentes de presentacion y componentes contenedores](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.37cfpqa29). Con esto logramos reutilizar por completo los componentes contenedores en web/mobile.
+   * Diseñar componentes de manera que tengan dos capas de abstracción. La capa superior sólo puede utilizar otros componentes de la aplicación, NO puede utilizar elements específicos de la plataforma (ej. no utilizar `div`, `span` o `li`). La capa inferior es la implementación del componente en la plataforma, por lo tanto esta sí puede usar `div`s, `span`s y `li`s
 
 ## ES6 classes o React.createClass?
 
