@@ -4,7 +4,7 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 ![Omastar](http://vignette1.wikia.nocookie.net/pokemon/images/6/65/Omastar_IL046.png/revision/latest?cb=20150624040620)
 
-## Styling
+## [Styling](http://stackoverflow.com/questions/26882177/react-js-inline-style-best-practices)
 
 * CSS
 * Inline CSS
