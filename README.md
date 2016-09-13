@@ -19,7 +19,10 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 * [Testing strategies](https://github.com/facebookincubator/create-react-app/blob/master/template/README.md#testing-components)
   * Smoke tests provide the biggest value with the least effort. A smoke test verifies a component renders without throwing
   * Test parts of a component that are worth testing. A good rule used to determine whether a component needs testing is: when a change in a component introduces bugs, it might be a good time to introduce tests asserting specific behaviour
-  * [Jest snapshot tests](https://facebook.github.io/jest/blog/2016/07/27/jest-14.html) let you make sure your component did not change unexpectedly. This lets you spend less time writing tests and more time writing components.
+  * [Jest snapshot tests](https://facebook.github.io/jest/blog/2016/07/27/jest-14.html) let you make sure your component did not change unexpectedly. This lets you spend less time writing tests and more time writing components
+  * Snapshot tests work great for component testing that tests component behaviour by injecting custom props and state
+  * Enzyme works great for end-to-end style tests that simulate user actions
+* [Comparison between snapshot tests and enzyme](https://blog.callstack.io/unit-testing-react-native-with-the-new-jest-i-snapshots-come-into-play-68ba19b1b9fe#.3l5ss330w)
 
 ## State management
 
