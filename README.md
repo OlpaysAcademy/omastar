@@ -16,7 +16,7 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 * CSS Modules
 
 ## Testing
-* Testing strategies
+* [Testing strategies](https://github.com/facebookincubator/create-react-app/blob/master/template/README.md#testing-components)
   * Smoke tests provide the biggest value with the least effort. A smoke test verifies a component renders without throwing
   * Test parts of a component that are worth testing. A good rule used to determine whether a component needs testing is: when a change in a component introduces bugs, it might be a good time to introduce tests asserting specific behaviour
   * [Jest snapshot tests](https://facebook.github.io/jest/blog/2016/07/27/jest-14.html) let you make sure your component did not change unexpectedly. This lets you spend less time writing tests and more time writing components.
