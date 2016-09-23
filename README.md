@@ -9,11 +9,15 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 * CSS
 * Inline CSS
 
+#### Winner: CSS
+
 ## Herramientas styling
 
 * CSS: Less, Sass, import CSS in components
 * Inline: Radium, ...
 * CSS Modules
+
+#### Winner: CSS Modules + Sass
 
 ## Testing
 * [Testing strategies](https://github.com/facebookincubator/create-react-app/blob/master/template/README.md#testing-components)
@@ -31,14 +35,19 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
   * Time traveling?
   * Convenciones de acciones. Ejemplo: https://github.com/acdlite/flux-standard-action
 
+### Winner: Redux
+
 ## Translations
 
 ## Immutable o no?
+#### NO
 
 ## UI Framework
  * Material UI
  * React Native web o no?
  * [React toolbox](http://react-toolbox.com/#/) usa css modules
+
+#### Winner: React Toolbox
 
 ## Componentes
  * Que tan reusable hacer nuestros componentes? Hagamos componentes agnosticos al framework de UI que usen. Esto nos llevaria a componentes reutilizables en web/mobile, codigo mas reutilizable y a la larga quizas cambiar de framework UI
@@ -48,17 +57,23 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 ## ES6 classes o React.createClass?
 
+#### Winner: ES6 Classes
+
 ## Routing
 
 * React router?
 * Hay alguna otra opción? [Al parecer no se lleva muy bien con redux](https://formidable.com/blog/2016/07/11/let-the-url-do-the-talking-part-1-the-pain-of-react-router-in-redux/)
   * Si hay otra opcion! [Redux little router](https://github.com/FormidableLabs/redux-little-router)
 
+#### Winner: React Router v4
+
 ## Types
 
 * Flow
 * Typescript
 * Js
+
+#### Winner: Flow
 
 ## Animaciones
 
