@@ -84,6 +84,7 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 ## Icon system
 
 ## Naming and directory structure conventions
+* https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.i3gf1odyv
 * http://marmelab.com/blog/2015/12/17/react-directory-structure.html
 * http://jaysoo.ca/2016/02/28/organizing-redux-application/
 
