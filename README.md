@@ -39,6 +39,12 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 ## Translations
 
+* [react-intl](https://github.com/yahoo/react-intl) porque soporta:
+  * Traducciones
+  * Pluralizacion
+  * Generos
+  * Localizacion
+
 ## Immutable o no?
 #### NO
 
