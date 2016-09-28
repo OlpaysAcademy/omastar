@@ -75,6 +75,12 @@ Aplicación con el objetivo de armar la arquitectura y elegir las librerias a us
 
 #### Winner: Flow
 
+## Build system
+
+Tercerizar el build system traería muchos beneficios, asi que debemos hacer lo posible para usar create-react-app para generar la aplicación. El problema es que create-react-app pelado no tiene css modules ni sass, asi que hay dos alternativas:
+* Eyectar create-react-app
+* Forkear create-react-app: Esta es la opción que suena mejor, [aqui](https://github.com/facebookincubator/create-react-app/issues/682) hay instrucciones sobre como mantener un fork. La idea es forkear react-scripts, generar la app con `create-react-app my-app --scripts-version my-react-scripts-fork` y mantener el fork actualizado automagicamente usando el bot de github [backstroke](https://github.com/1egoman/backstroke)
+
 ## Animaciones
 
 ## Libreria graficos
